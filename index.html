@@ -1,11 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <div class="sidebar">
+        <div class = "dashboard" id="dashboard"> 
+            <img src = "dashboard.svg" class = "icon" id = "dashboard-logo" alt = "dashboard">
+            <h1> Dashboard </h1>
+        </div>
+        <div class = "buttons" id = "midButtons"> 
+            <div class = logoButton id="homeButton"> 
+                <img src = "home.svg" class = "icon" alt = "home">
+                <text> Home </text> 
+            </div>
+            <div class = logoButton id="ProfileButton"> 
+                <img src = "profile.svg" class = "icon" alt = "profile">
+                <text> Profile </text> 
+            </div>
+            <div class = logoButton id="messagesButton"> 
+                <img src = "messages.svg" class = "icon" alt = "messages">
+                <text> Messages </text> 
+            </div>
+            <div class = logoButton id="historyButton"> 
+                <img src = "history.svg" class = "icon" alt = "history">
+                <text> History </text> 
+            </div>
+            <div class = logoButton id="tasksButton"> 
+                <img src = "tasks.svg" class = "icon" alt = "tasks">
+                <text> Tasks </text> 
+            </div>
+            <div class = logoButton id="communitiesButton"> 
+                <img src = "community.svg" class = "icon" alt = "community">
+                <text> Communities </text> 
+            </div>   
+        </div>
+        <div class = "buttons" id = "botButtons">
+            <div class = logoButton id="settingsButton"> 
+                <img src = "settings.svg" class = "icon" alt = "settings">
+                <text> Settings </text> 
+            </div>
+            <div class = logoButton id="supportButton"> 
+                <img src = "help.svg" class = "icon" alt = "settings">
+                <text> Support </text> 
+            </div>
+            <div class = logoButton id="privacyButton"> 
+                <img src = "security.svg" class = "icon" alt = "privacy">
+                <text> Security </text> 
+            </div>
+        </div>
+
+    </div>
+
+    <div class="header">
+        <input id="search" type="text">
+        <text> Hi there, Morgan Oakley </text>
+        <button id="newButton"> New </button>
+        <button id="uploadButton"> Upload </button>
+        <button id="shareButton"> Share </button>
+    </div>
+
+    <div class="main-content">
+        <div class="projects">
+            <h1> Your Projects</h1>
+            <div class="card">
+                <p class="title">Article Title</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+            </div>
+            <div class="card">
+                <p class="title">Article Title</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+            </div>
+            <div class="card">
+                <p class="title">Article Title</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+            </div>
+            <div class="card">
+                <p class="title">Article Title</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+            </div>
+            <div class="card">
+                <p class="title">Article Title</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+            </div>
+            <div class="card">
+                <p class="title">Article Title</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+            </div>
+        </div>
+        <div class="announcements">
+            <div class="message">
+                <h1> Site Maintenance </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+            </div>
+            <div class="message">
+                <h1> Community Share Day </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+            </div>
+            <div class="message">
+                <h1> Updated Privacy Policy </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+            </div>
+        </div>
+        <div class = "trending">
+            <h1> Trending </h1>
+            <div class = "userinfo"> 
+                <h2>@user_accpunt</h2>
+                <p> Building a project</p>
+            </div>
+            <div class = "userinfo"> 
+                <h2>@user_accpunt</h2>
+                <p> Building a project</p>
+            </div>
+            <div class = "userinfo"> 
+                <h2>@user_accpunt</h2>
+                <p> Building a project</p>
+            </div>
+            <div class = "userinfo"> 
+                <h2>@user_accpunt</h2>
+                <p> Building a project</p>
+            </div>
+        </div>
+    </div>
+
+
+
 </body>
+
 </html>
