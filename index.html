@@ -10,59 +10,83 @@
 
 <body>
     <div class="sidebar">
-        <div class = "dashboard" id="dashboard"> 
-            <img src = "dashboard.svg" class = "icon" id = "dashboard-logo" alt = "dashboard">
+        <div class="dashboard" id="dashboard">
+            <img src="dashboard.svg" class="icon" id="dashboard-logo" alt="dashboard">
             <h1> Dashboard </h1>
         </div>
-        <div class = "buttons" id = "midButtons"> 
-            <div class = logoButton id="homeButton"> 
-                <img src = "home.svg" class = "icon" alt = "home">
-                <text> Home </text> 
+        <div class="buttons" id="midButtons">
+            <div class=logoButton id="homeButton">
+                <img src="home.svg" class="icon" alt="home">
+                <text> Home </text>
             </div>
-            <div class = logoButton id="ProfileButton"> 
-                <img src = "profile.svg" class = "icon" alt = "profile">
-                <text> Profile </text> 
+            <div class=logoButton id="ProfileButton">
+                <img src="profile.svg" class="icon" alt="profile">
+                <text> Profile </text>
             </div>
-            <div class = logoButton id="messagesButton"> 
-                <img src = "messages.svg" class = "icon" alt = "messages">
-                <text> Messages </text> 
+            <div class=logoButton id="messagesButton">
+                <img src="messages.svg" class="icon" alt="messages">
+                <text> Messages </text>
             </div>
-            <div class = logoButton id="historyButton"> 
-                <img src = "history.svg" class = "icon" alt = "history">
-                <text> History </text> 
+            <div class=logoButton id="historyButton">
+                <img src="history.svg" class="icon" alt="history">
+                <text> History </text>
             </div>
-            <div class = logoButton id="tasksButton"> 
-                <img src = "tasks.svg" class = "icon" alt = "tasks">
-                <text> Tasks </text> 
+            <div class=logoButton id="tasksButton">
+                <img src="tasks.svg" class="icon" alt="tasks">
+                <text> Tasks </text>
             </div>
-            <div class = logoButton id="communitiesButton"> 
-                <img src = "community.svg" class = "icon" alt = "community">
-                <text> Communities </text> 
-            </div>   
+            <div class=logoButton id="communitiesButton">
+                <img src="community.svg" class="icon" alt="community">
+                <text> Communities </text>
+            </div>
         </div>
-        <div class = "buttons" id = "botButtons">
-            <div class = logoButton id="settingsButton"> 
-                <img src = "settings.svg" class = "icon" alt = "settings">
-                <text> Settings </text> 
+        <div class="buttons" id="botButtons">
+            <div class=logoButton id="settingsButton">
+                <img src="settings.svg" class="icon" alt="settings">
+                <text> Settings </text>
             </div>
-            <div class = logoButton id="supportButton"> 
-                <img src = "help.svg" class = "icon" alt = "settings">
-                <text> Support </text> 
+            <div class=logoButton id="supportButton">
+                <img src="help.svg" class="icon" alt="settings">
+                <text> Support </text>
             </div>
-            <div class = logoButton id="privacyButton"> 
-                <img src = "security.svg" class = "icon" alt = "privacy">
-                <text> Security </text> 
+            <div class=logoButton id="privacyButton">
+                <img src="security.svg" class="icon" alt="privacy">
+                <text> Privacy </text>
             </div>
         </div>
 
     </div>
 
     <div class="header">
-        <input id="search" type="text">
-        <text> Hi there, Morgan Oakley </text>
-        <button id="newButton"> New </button>
-        <button id="uploadButton"> Upload </button>
-        <button id="shareButton"> Share </button>
+
+        <div class = "headerRow">
+            <div class="headerCol" id = "searchBar">
+                <img src="search.svg" class="icon" id="searchIcon" alt="search">
+                <input id="searchInput" type="text">
+            </div>
+            <div>
+
+            </div>
+            <div class="headerCol" id = "notificationBar">
+                <div id = "userInfo"> 
+                    <img src="notifcation.svg" class="icon" id="notifcationIcon" alt="notifcation">
+                    <img src="user.svg" class="icon" id="userIcon" alt="user">
+                </div>
+                    <h1 id="username"> Morgan Oakley </h1>
+            </div>
+        </div>
+
+        <div class = "headerRow" >
+            <div class="headerCol" id = "welcomeMessage">
+                <img src="user.svg" class="icon" id="userIcon" alt="user">
+                <h1> Hi there, Morgan Oakley </h1>
+            </div>
+            <div class="headerCol" id = "headerButtons">
+                <button id="newButton"> New </button>
+                <button id="uploadButton"> Upload </button>
+                <button id="shareButton"> Share </button>
+            </div>
+        </div>
     </div>
 
     <div class="main-content">
@@ -125,21 +149,21 @@
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
             </div>
         </div>
-        <div class = "trending">
+        <div class="trending">
             <h1> Trending </h1>
-            <div class = "userinfo"> 
+            <div class="userinfo">
                 <h2>@user_accpunt</h2>
                 <p> Building a project</p>
             </div>
-            <div class = "userinfo"> 
+            <div class="userinfo">
                 <h2>@user_accpunt</h2>
                 <p> Building a project</p>
             </div>
-            <div class = "userinfo"> 
+            <div class="userinfo">
                 <h2>@user_accpunt</h2>
                 <p> Building a project</p>
             </div>
-            <div class = "userinfo"> 
+            <div class="userinfo">
                 <h2>@user_accpunt</h2>
                 <p> Building a project</p>
             </div>
